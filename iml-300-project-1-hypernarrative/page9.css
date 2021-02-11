@@ -1,0 +1,56 @@
+title {
+	text-align: center;
+}
+h1 {
+	font-family: monospace;
+	font-size:40px;
+	text-align: center;
+	padding-top: 140px;
+	margin-bottom: 50px;
+}
+
+p{
+	text-align: center;
+	font-family: monospace;
+	font-size: 20px;	
+}
+
+p1{
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 20px;
+	margin-right:60px;
+}
+
+p2{
+	margin: auto;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p3{
+	margin-left:60px;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p4{
+	margin-left:60px;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+div{
+	text-align: center
+}
+
+.bg-9{
+	background-image: url(assets/whatnowbackground.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	cursor: url("assets/cur.png"), auto;
+}

@@ -1,0 +1,91 @@
+body {
+    background-color: bisque;
+    font-family: monospace;
+    cursor: url("assets/cur.png"), auto;
+    display: grid;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-2 {
+    background-image: url('assets/wakeup!.jpg');
+}
+
+.bg-3 {
+    background-image: url('assets/whatdoyouwanttodofirst.jpg');
+}
+
+.bg-4 {
+    background-image: url('assets/citybackground.jpg');
+}
+
+.bg-5 {
+    background-image: url('assets/mallbackground.jpg');
+}
+
+.bg-6 {
+    background-image: url('assets/pets.jpg');
+}
+
+.bg-7 {
+    background-image: url('assets/food.jpg');
+}
+
+.bg-8{
+	background-image: url(assets/hiking2.jpg);
+}
+
+.bg-11{
+	background-image: url(assets/sunset.jpg)
+}
+
+.bg-12{
+	background: url(assets/goodnight.png)
+}
+
+.child {
+    float: left;
+    padding-left: 30%;
+    margin-top: 20px;
+}
+
+.child1 {
+    float: right;
+    padding-right: 30%;
+    margin-top: 19px;
+
+}
+
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+
+p {
+    color: salmon;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+p1{
+	color: black;
+	font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    padding-top: 140px;
+}
+
+h2{
+	font-size: 40px;
+    padding-top: 140px;
+	color: white;
+}
+summary {
+    font-size: 20px;
+}

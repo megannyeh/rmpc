@@ -11,5 +11,24 @@
 div{
 	text-align: center
 }
-p1{margin-right:50px}
-p2{margin: auto}
+p1{
+	margin-right:50px;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p2{
+	margin: auto;
+	font-family: monospace;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+body{
+	background-image: url(assets/nottiredyet!.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	cursor: url("assets/cur.png"), auto;
+}
