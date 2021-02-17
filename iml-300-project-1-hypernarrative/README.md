@@ -1,5 +1,5 @@
 # A Day in the Life of Ayumi
-![site gif](https://github.com/megannyeh/iml300/blob/master/iml-300-project-1-hypernarrative/assets/ayumisite.gif)
+![site gif](https://github.com/megannyeh/iml300/blob/master/iml-300-project-1-hypernarrative/assets/optomizedayumigif.gif)
 
 [A Day in the Life of Ayumi](https://megannyeh.github.io/iml300/iml-300-project-1-hypernarrative/) is an interactive web experience that allows users to click and choose a non-linear storyline from the perspective of my dog, Ayumi. 
 
