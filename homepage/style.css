@@ -1,0 +1,59 @@
+@font-face{
+	font-family:'Cute Cartoon';
+	src: url('fonts/Cute Cartoon.woff');
+	font-weight:normal;
+}
+.bg-1 {
+    background-image: url(asset/sailorcitybackground.jpg);
+    display: grid;
+	cursor: url("asset/pixelatedcursor.png"), auto;
+	font-family: Cute Cartoon;
+	text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.title{
+	margin-top: 60px;
+	font-size:40px;
+}
+
+.presentation{
+	font-size: 30px;
+	margin-bottom:60px;
+}
+
+.projects{
+	font-size:30px;
+	margin-bottom: 60px;
+}
+
+.exercises{
+	font-size:30px;
+	margin-bottom: 60px;
+}
+
+.thoughts{
+	font-size:30px;
+}
+
+h1{
+	font-size:60px;
+	margin:-10px;
+}
+h2{
+	margin:5px;
+}
+p{
+	margin-top:10px;
+	margin-bottom: 50px;
+}
+ul{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.footer{
+	font-size: 25px;
+	margin-top: 30px;
+}

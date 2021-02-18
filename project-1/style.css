@@ -42,7 +42,7 @@ body {
 }
 
 .bg-12{
-	background: url(assets/goodnight.png)
+	background-image: url(assets/goodnight.png)
 }
 
 .child {
