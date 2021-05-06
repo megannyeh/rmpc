@@ -1,69 +1,239 @@
 @font-face{
-	font-family:'Cute Cartoon';
-	src: url('fonts/Cute Cartoon.woff');
+	font-family:'bilal';
+	src: url('fonts/bilal.woff');
 	font-weight:normal;
 }
-.bg-1 {
-    background-image: url(asset/sailorcitybackground.jpg);
-    display: grid;
-	cursor: url("asset/pixelatedcursor.png"), auto;
-	font-family: Cute Cartoon;
+
+@font-face{
+	font-family:'type';
+	src: url('fonts/typer.woff');
+	font-weight:normal;
+}
+
+
+canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#lines{
+	position: absolute;
+	top: -20px;
+}
+
+.gradient-body {
+   background: #afa8f0;
+  -webkit-font-smoothing: antialiased;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(155, 206, 238, 1)),
+    color-stop(30%, rgba(255, 245, 204, 1)),
+    color-stop(70%, rgba(145, 255, 141, 1)),
+    to(rgba(185, 141, 255, 1))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(168, 237, 234, 1) 0%,
+    rgba(255, 245, 204, 1) 30%,
+    rgba(145, 255, 141, 1) 70%,
+    rgba(185, 141, 255, 1) 100%
+  );
+  background: -o-linear-gradient(
+    left,
+    rgba(168, 237, 234, 1) 0%,
+    rgba(255, 245, 204, 1) 30%,
+    rgba(145, 255, 141, 1) 70%,
+    rgba(185, 141, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(168, 237, 234, 1) 0%,
+    rgba(221, 214, 243, 1) 30%,
+    rgba(255, 245, 204, 1) 70%,
+    rgba(252, 189, 255, 1) 100%
+  );
+  background-size: 400% 400%;
+  -webkit-animation: gradient 20s ease infinite;
+  animation: gradient 20s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+#border{
+	width: 650px;
+	height: 510px;
+	position: absolute;
+	top:-17px;
+	right: 130px;
+	z-index: 1;
+}
+
+.title { 
+  writing-mode: horizontal-tb;
+  font-family: bilal;
+  font-size: 90px;
+  position: absolute;
+  right: 245px;
+  top:150px;
+  text-align: center;
+  width: 400px;
+  z-index: 20;
+}
+
+/*
+.circles{
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+*/
+
+#aboutcircle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 100px;
+	right: 1300px;
+}
+
+#description {
+	font-family: type;
+	display: none;
 	text-align: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
-.title{
-	margin-top: 60px;
-	font-size:40px;
-}
-
-.presentation{
-	font-size: 30px;
-	margin-bottom:60px;
+	font-size: 20px;
+	width: 400px;
+	border: 3px solid black;
+    background-color: white;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	z-index: 2;
+	
 }
 
-.projects{
-	font-size:30px;
-	margin-bottom: 60px;
+#prescircle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 195px;
+	right: 960px;
 }
 
-.exercises{
-	font-size:30px;
-	margin-bottom: 60px;
+#projcircle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 500px;
+	right: 830px;
 }
 
-.thoughts{
-	font-size:30px;
+#projectdescription{
+	font-family: type;
+	display: none;
+	text-align:center;
+	font-size: 25px;
+	width: 400px;
+	border: 3px solid black;
+    background-color: white;
+	position: absolute;
+	right: 1100px;
+	top: 500px;
+	padding: 10px;
 }
 
-h1{
-	font-size:60px;
-	margin:-10px;
+#exercisecircle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	top: 555px;
+	right: 450px;
 }
-h2{
-	margin:5px;
+
+#exercisedescription{
+	display: none;
+	font-family: type;
+	text-align:center;
+	position: absolute;
+	top: 800px;
+	right: 200px;
+	width: 80%;
+	z-index: 100;
 }
-p{
-	margin-top:10px;
-	margin-bottom: 50px;
+
+#thoughtscircle{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	right: 130px;
+	top: 690px;
 }
+
 ul{
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
 .footer{
+	font-family: bilal;
 	font-size: 25px;
-	margin-top: 30px;
+	margin-top: 10px;
+	position: absolute;
+	bottom: 0px;
 }
 
 iframe{
-    width:300px;
-    height: 300px;   
+	display: inline-block;
+	border-radius: 50%;
+	height: 200px;
+ 	width: 200px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto; 
+.grid-container1{
+    display:inline-grid;
+    grid-template-columns: auto auto auto;
 }
+
+.grid-container2{
+    display:inline-grid;
+    grid-template-columns:auto auto auto;
+}
+
+.grid-container3{
+    display:inline-grid;
+    grid-template-columns:auto auto auto;
+}
+

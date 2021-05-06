@@ -5,65 +5,113 @@
     <meta charset="UTF-8">
     <title>Megan's Homepage</title> 
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js"></script>
+    <script src="ripple.js"></script>
 </head>
-<body class="bg-1">
+<body class="gradient-body">
+   	<img id="lines" src="asset/homepageline-01.png" alt="lines" width="100%" height="1100px">
+    <div style="background-color:#2A75A9;"></div>
+    <div style="background-color:#274257;"></div>
+    <div style="background-color:#644436;"></div>
+    <div style="background-color:#8F6048;"></div>
+    <img id="border" src="asset/border.png" alt="brush">
     <div class="title">
-        <h1>Megan Yeh</h1> 
-        <p>This is my website for iml 300.</p>
-    </div>   
-
-    <div class="presentation">
-        <h1>Presentation</h1>
-       	<a href="https://docs.google.com/presentation/d/1RKKOdSmNKGyjQT09t4Rb5UWNc-hzUh-BvWexDvEB70k/edit?usp=sharing">Pecha Kucha: Heather Dewey-Hagborg</a>
+        Megan Yeh
+    </div>  
+    <div class = "circles">
+    <div id="clickabout">
+    	 <img id="aboutcircle" src="asset/about.png" alt="circle">
     </div>
-
-    <div class="projects">
-        <h1>Projects</h1>
-        <h2>Project 1: HyperNarrative</h2>
+    <div id="description">
+    	Welcome! My name is Megan and this is my website for IML 300, Reading and Writing the Web. As of now, I am a freshman at USC's School of Cinematic Arts, majoring in Media Arts + Practice. This site serves as a personal portfolio for my work. My projects from this class include a wide range of topics, from international dog rescue to my creative p5js skteches to the history of South Central. Feel free to check out my projects + reading responses! 
+    </div>
+    
+     <div id="clickpresentation">
+    	<a id= "pechakucha" href="https://docs.google.com/presentation/d/1RKKOdSmNKGyjQT09t4Rb5UWNc-hzUh-BvWexDvEB70k/edit?usp=sharing"> <img id="prescircle" src="asset/pechakucha.png" alt="circle"></a> 
+    </div>
+    
+    <div id="clickproject">
+    	 <img id="projcircle" src="asset/projects.png" alt="circle">
+    </div>
+    <div id="projectdescription">
+      	<h>Project 1: HyperNarrative</h> <br>
         <a href="https://docs.google.com/document/d/1dEikNcbACr0F35kUSCHKPk1T5PKauetp1VDUw977jms/edit?usp=sharing">Concept</a><br>
-        <a href="https://megannyeh.github.io/iml300/iml-300-project-1-hypernarrative/">Final: A Day in the Life of Ayumi</a>
-        <h2>Project 2: Algorithmic Pattern and Sound</h2>
-        <a href="https://editor.p5js.org/megannyeh/full/Ag47QKK67">Frog Jazz</a>
-        <h2>Project 3: Networked Justice</h2>
-        <a href="">Final: Lorem Ipsum</a>
+        <a href="https://megannyeh.github.io/iml300/iml-300-project-1-hypernarrative/">Final: A Day in the Life of Ayumi</a> <br>
+        <h>Project 2: Algorithmic Pattern and Sound</h> <br>
+        <a href="https://editor.p5js.org/megannyeh/full/Ag47QKK67">Frog Jazz</a> <br>
+        <h>Project 3: Networked Justice</h> <br>
+        <a href="https://thehistoryofsouthcentral.glitch.me/">The History of South Central</a>
     </div>
-
-    <div class="exercises">
-        <h1>Exercises</h1>
-         <div class="grid-container">
-           
-            <div class ="grid-item"> 
-            	<li><a href="https://editor.p5js.org/megannyeh/sketches/ghlh3NIov">p5.js exercise 1</a></li>
+    
+    <div id="clickexercise">
+    	 <img id="exercisecircle" src="asset/exercises.png" alt="circle">
+    </div>
+    <div id="exercisedescription">
+        
+          <div class="grid-container1">
+            <div class="grid-item">
+            		<a href="https://editor.p5js.org/megannyeh/sketches/ghlh3NIov">p5.js exercise 1</a>
             	<iframe src="https://editor.p5js.org/megannyeh/embed/ghlh3NIov"></iframe>
             </div>
-           
             <div class="grid-item">
-            	<li><a href="https://editor.p5js.org/megannyeh/sketches/V1nBEyrt0">p5.js exercise 2</a></li>
+            	 <a href="https://editor.p5js.org/megannyeh/sketches/V1nBEyrt0">p5.js exercise 2</a>
             	<iframe src="https://editor.p5js.org/megannyeh/embed/V1nBEyrt0"></iframe>
             </div>
             
             <div class="grid-item">
-            	<li><a href="https://editor.p5js.org/megannyeh/sketches/JIAMO2uDS">p5.js exercise 3</a></li>
+            	  <a href="https://editor.p5js.org/megannyeh/sketches/OLS4jxOCT">p5.js exercise 3 a.</a>
+            	<iframe src="https://editor.p5js.org/megannyeh/embed/OLS4jxOCT"></iframe>
+          </div>
+          </div>
+          
+        	 
+          <div class="grid-container2">
+          	<div class="grid-item">
+          		 <a href="https://editor.p5js.org/megannyeh/sketches/KREb_uvU2">p5.js exercise 3 b.</a>
+            	<iframe src="https://editor.p5js.org/megannyeh/embed/KREb_uvU2"></iframe>
+          	</div>
+          	<div class="grid-item">
+          		  <a href="https://editor.p5js.org/megannyeh/sketches/JIAMO2uDS">p5.js exercise 3 c.</a>
             	<iframe src="https://editor.p5js.org/megannyeh/embed/JIAMO2uDS"></iframe>
-            </div>
-            
-            <div class="grid-item">
-            	<li><a href="https://editor.p5js.org/megannyeh/sketches/raDcL-cbB">p5.js exercise 4</a></li>
+          	</div>
+          	<div class="grid-item">
+          		  	
+            <a href="https://editor.p5js.org/megannyeh/sketches/raDcL-cbB">p5.js exercise 4</a>
             	<iframe src="https://editor.p5js.org/megannyeh/embed/raDcL-cbB"></iframe>
-            </div>
-   		 </div>
-    </div>
+          	</div>
+          </div>
+          
+          
+           
+         <div class="grid-container3">
+         	<div class="grid-item"> 
+         	  <a href="https://editor.p5js.org/megannyeh/sketches/mDKubs7Ec">p5.js exercise 5</a>
+            	<iframe src="https://editor.p5js.org/megannyeh/embed/mDKubs7Ec"></iframe>
+         	</div>
+         	<div class="grid-item"> 
+         	   <a href="https://editor.p5js.org/megannyeh/sketches/lHE48vTcK">p5.js exercise 6</a>
+            	<iframe src="https://editor.p5js.org/megannyeh/embed/lHE48vTcK"></iframe>
+         	</div>
+         	<div class="grid-item">   
+            <a href="https://editor.p5js.org/megannyeh/sketches/wrLGFUfVz">p5.js exercise 7</a>
+            	<iframe src="https://editor.p5js.org/megannyeh/embed/wrLGFUfVz"></iframe>
+         	</div>
+         </div>     
+   </div>
     
-    <div class="thoughts">
-    	<h1>Thoughts</h1>
-    	<a href="thoughts.html">Reading Responses/Discussion Questions</a>
-    </div>
+   <div id="clickthoughts">
+    	<a id= "thoughts" href="thoughts.html"><img id="thoughtscircle" src="asset/thoughts.png" alt="circle"></a> 
+   </div>
+  </div>
 
    <div class="footer">
    	<footer>
       Spring, 2021.
     </footer>
    </div>	
-   
-</body>
+  </body>
 </html>
